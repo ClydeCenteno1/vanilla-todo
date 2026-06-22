@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do List</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body class="bg-[#0a0a0a]" style="background: linear-gradient(135deg, #0a0a0a 0%, #111827 40%, #0f0f1a 70%, #0a0a0a 100%); min-height: 100vh;">
+
+    <section class="min-h-screen w-full overflow-x-hidden flex justify-center items-center">
+        <div class="space-y-4">
+            <div>
+                <h1 class="text-white font-semibold text-[3rem] md:text-[7rem] tracking-wide text-center ">Just Do
+                    it!<span class="border-r-2 animate-pulse md:text-[6rem]"></span>
+                </h1>
+            </div>
+
+            <form action="#" class="todoListContainer flex justify-center">
+                <input type="text" class="p-3 border bg-stone-900 rounded-tl-[4rem] rounded-bl-[4rem] flex-grow text-white"
+                    placeholder="Add a task" id="todoInput" autocomplete="off">
+
+                <button type="submit" class="text-sm md:text-md px-1 md:px-2 bg-white rounded-tr-[4rem] rounded-br-[4rem]">Let's do this!</button>
+            </form>
+
+            <div id="listContainer">
+                <ul id="todoUl" class="w-full md:px-[5rem] space-y-4"> </ul>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
