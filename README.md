@@ -8,7 +8,6 @@ A lightweight, persistent to-do list app built with vanilla JavaScript and Tailw
 - Add tasks via form submission
 - Mark tasks as complete with strikethrough toggle
 - Delete individual tasks
-- Persistent storage via `localStorage` — tasks survive page refresh
 - Responsive dark-themed UI
 
 ## Demo
